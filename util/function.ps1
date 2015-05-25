@@ -46,7 +46,9 @@ function jget-ext {
     (ls).Where({$_.Extension -like $ext});
 }
 
+
 # 进入指定字符的目录，通常用于目录较长的情况
+
 function jcd {
     Param($filter, $order);
     $order = [int]$order;

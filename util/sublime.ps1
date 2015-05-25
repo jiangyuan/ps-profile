@@ -2,6 +2,7 @@ Set-Alias st "C:\TOOLS\Sublime Text Build 3083 x64\subl.exe"
 
 # sublime project 的目录
 #   所有 project 都保存这个目录下，方便控制
+
 $proj = 'F:\st';
 
 # 查看所有 project   `st-proj`
